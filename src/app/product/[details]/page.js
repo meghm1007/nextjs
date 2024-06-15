@@ -1,5 +1,4 @@
-export default function Page() {
-    return (
-        <div>Product Details Page</div>
-    )
+export default function ProductDetails({ params }) {
+  console.log(params);
+  return <div>Product Details Page</div>;
 }
